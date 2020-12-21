@@ -312,6 +312,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "NavBar"
 });
@@ -828,6 +836,24 @@ var render = function() {
   return _c("div", { attrs: { id: "NavBar" } }, [
     _c("header", { staticClass: "text-purple-500 bg-white-900 body-font" }, [
       _c(
+        "video",
+        {
+          attrs: {
+            playsinline: "playsinline",
+            autoplay: "autoplay",
+            muted: "muted",
+            loop: "loop"
+          },
+          domProps: { muted: true }
+        },
+        [
+          _c("source", {
+            attrs: { src: "/video/FirstHeader.mp4", type: "video/mp4" }
+          })
+        ]
+      ),
+      _vm._v(" "),
+      _c(
         "div",
         {
           staticClass:
@@ -874,45 +900,31 @@ var render = function() {
           _vm._v(" "),
           _vm._m(0),
           _vm._v(" "),
-          _c("p", { staticClass: "mr-5" }, [_vm._v("+3809127413")]),
-          _vm._v(" "),
           _c(
             "button",
             {
               staticClass:
-                "inline-flex items-center bg-purple-800 border-0 py-1 px-3 focus:outline-none hover:bg-black-700 rounded-2xl text-white mt-4 md:mt-0"
+                "inline-flex items-center bg-purple-800 border-0 py-2 px-3 focus:outline-none hover:bg-black-700 rounded-3xl text-white mt-4 md:mt-0"
             },
-            [
-              _vm._v("Button\n        "),
-              _c(
-                "svg",
-                {
-                  staticClass: "w-4 h-4 ml-1",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
-                [_c("path", { attrs: { d: "M5 12h14M12 5l7 7-7 7" } })]
-              )
-            ]
+            [_vm._v("Contact us\n      ")]
           )
         ]
       )
     ]),
     _vm._v(" "),
-    _c(
-      "video",
-      {
-        attrs: { autoplay: "", muted: "", loop: "", id: "HeaderVideo" },
-        domProps: { muted: true }
-      },
-      [_c("source", { attrs: { src: "/video/BGHead.mp4", type: "video/mp4" } })]
-    )
+    _vm._m(1),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _vm._m(3),
+    _vm._v(" "),
+    _vm._m(4),
+    _vm._v(" "),
+    _vm._m(5),
+    _vm._v(" "),
+    _vm._m(6),
+    _vm._v(" "),
+    _vm._m(7)
   ])
 }
 var staticRenderFns = [
@@ -924,18 +936,88 @@ var staticRenderFns = [
       "nav",
       {
         staticClass:
-          "md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+          "md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center font-semibold text-xl rounded-3xl"
       },
       [
-        _c("a", { staticClass: "mr-5" }, [_vm._v("First Link")]),
+        _c(
+          "button",
+          {
+            staticClass:
+              "inline-flex items-center bg-white border-0 py-2 px-3 focus:outline-none hover:bg-black-700 rounded-3xl text-purple mt-4 md:mt-0"
+          },
+          [_c("a", {}, [_vm._v("First Link")])]
+        ),
         _vm._v(" "),
-        _c("a", { staticClass: "mr-5" }, [_vm._v("Second Link")]),
+        _c(
+          "button",
+          {
+            staticClass:
+              "inline-flex items-center bg-white border-0 py-2 px-3 focus:outline-none hover:bg-black-700 rounded-3xl text-purple mt-4 md:mt-0"
+          },
+          [_c("a", {}, [_vm._v("Second Link")])]
+        ),
         _vm._v(" "),
-        _c("a", { staticClass: "mr-5" }, [_vm._v("Third Link")]),
+        _c(
+          "button",
+          {
+            staticClass:
+              "inline-flex items-center bg-white border-0 py-2 px-3 focus:outline-none hover:bg-black-700 rounded-3xl text-purple mt-4 md:mt-0"
+          },
+          [_c("a", {}, [_vm._v("Third Link")])]
+        ),
         _vm._v(" "),
-        _c("a", { staticClass: "mr-5" }, [_vm._v("Fourth Link")])
+        _c(
+          "button",
+          {
+            staticClass:
+              "inline-flex items-center bg-white border-0 py-2 px-3 focus:outline-none hover:bg-black-700 rounded-3xl text-purple mt-4 md:mt-0"
+          },
+          [_c("a", {}, [_vm._v("Fourth Link")])]
+        )
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("awdawdawdawdd")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("awdawdawdawdd")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("awdawdawdawdd")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("awdawdawdawdd")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("awdawdawdawdd")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("awdawdawdawdd")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("p", [_vm._v("awdawdawdawdd")])])
   }
 ]
 render._withStripped = true
