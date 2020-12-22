@@ -2,7 +2,7 @@
   <div id="NavBar">
     <header class="text-purple-500 bg-white-900 body-font">
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="/video/FirstHeader.mp4" type="video/mp4">
+        <source src="/video/BGHead.mp4" type="video/mp4">
       </video>
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-purple mb-4 ml-10 md:mb-0">
@@ -25,14 +25,6 @@
         </button>
       </div>
     </header>
-    <div><p>awdawdawdawdd</p></div>
-    <div><p>awdawdawdawdd</p></div>
-    <div><p>awdawdawdawdd</p></div>
-    <div><p>awdawdawdawdd</p></div>
-    <div><p>awdawdawdawdd</p></div>
-    <div><p>awdawdawdawdd</p></div>
-    <div><p>awdawdawdawdd</p></div>
-
   </div>
 </template>
 
