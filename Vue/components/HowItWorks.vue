@@ -1,52 +1,33 @@
 <template>
   <div id="HowItWorks">
+    <vue-aos animation-class="fadeIn animated">
+      <div><p class="text-center text-7xl font-bold title-font text-purple-900 mt-5">How It Works</p></div>
+    </vue-aos>
+    <p class="text-center text-xl font-bold title-font text-purple-500 mt-5">New times requires new ways of working.</p>
+    <p class="text-center text-xl font-bold title-font text-purple-500 mt-5">This is how we create fresh products for you</p>
     <section class="text-gray-700 body-font">
       <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-col">
-          <div class="h-1 bg-gray-200 rounded overflow-hidden">
-            <div class="w-24 h-full bg-indigo-500"></div>
-          </div>
-          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-            <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Space The Final Frontier</h1>
-            <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
-          </div>
-        </div>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-            <div class="rounded-lg h-64 overflow-hidden">
+            <div class="rounded-lg h-100 overflow-hidden">
               <img alt="content" class="object-cover object-center h-full w-full" src="/images/Avatar-1.png">
             </div>
-            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Shooting Stars</h2>
-            <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 class="text-center text-xl font-bold title-font text-purple-900 mt-5">Planning</h2>
+            <p class="text-base font-bold text-purple-600 leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
           </div>
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-            <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504">
+            <div class="rounded-lg h-100 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="/images/Avatar-3.png">
             </div>
-            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The Catalyzer</h2>
-            <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 class="text-center text-xl font-bold title-font text-900 mt-5 yellow">Designing</h2>
+            <p class="text-base font-bold leading-relaxed mt-2 yellow">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
           </div>
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-            <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505">
+            <div class="rounded-lg h-100 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="/images/Avatar-2.png">
             </div>
-            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">The 400 Blows</h2>
-            <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-            <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 class="text-center text-xl font-bold title-font text-gray-900 mt-5 aqua">Executing</h2>
+            <p class="text-base font-bold leading-relaxed mt-2 aqua">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
           </div>
         </div>
       </div>
@@ -55,11 +36,21 @@
 </template>
 
 <script>
+import VueAos from 'vue-aos'
+
 export default {
-name: "HowItWorks"
+  name: "HowItWorks",
+  components: {
+    VueAos
+  }
 }
 </script>
 
 <style scoped>
-
+.yellow{
+  color:#F7A833;
+}
+.aqua{
+  color:#AACBFF;
+}
 </style>

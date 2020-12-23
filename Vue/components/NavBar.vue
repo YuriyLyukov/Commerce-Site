@@ -35,5 +35,26 @@ export default {
 </script>
 
 <style scoped>
+.intro{
+  max-height: 100vh;
+  overflow: hidden;
+
+}
+
+.video{
+  position: absolute;
+  padding-bottom: 56.25%;
+
+
+}
+
+.vide__media{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
 
 </style>
