@@ -477,8 +477,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_countup_v2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-countup-v2 */ "./node_modules/vue-countup-v2/dist/countup.umd.min.js");
-/* harmony import */ var vue_countup_v2__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_countup_v2__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vue_countup_v2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-countup-v2 */ "./node_modules/vue-countup-v2/dist/countup.umd.min.js");
+/* harmony import */ var vue_countup_v2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_countup_v2__WEBPACK_IMPORTED_MODULE_1__);
 //
 //
 //
@@ -503,7 +503,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Counter',
   components: {
-    ICountUp: vue_countup_v2__WEBPACK_IMPORTED_MODULE_2___default.a
+    ICountUp: vue_countup_v2__WEBPACK_IMPORTED_MODULE_1___default.a
   },
   data: function data() {
     return {
@@ -549,8 +549,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_aos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-aos */ "./node_modules/vue-aos/dist/vue-aos.umd.js");
-/* harmony import */ var vue_aos__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_aos__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_aos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-aos */ "./node_modules/vue-aos/dist/vue-aos.umd.js");
+/* harmony import */ var vue_aos__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_aos__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -592,7 +592,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "HowItWorks",
   components: {
-    VueAos: vue_aos__WEBPACK_IMPORTED_MODULE_1___default.a
+    VueAos: vue_aos__WEBPACK_IMPORTED_MODULE_0___default.a
   }
 });
 
@@ -607,6 +607,24 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -5862,17 +5880,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "NavBar" } }, [
     _c("header", { staticClass: "text-gray-700 body-font" }, [
-      _c("video", {
-        staticClass: "vide__media",
-        attrs: { src: "/video/BGHead.mp4", autoplay: "", muted: "", loop: "" },
-        domProps: { muted: true }
-      }),
-      _vm._v(" "),
       _c(
         "div",
         {
           staticClass:
-            " container w-full text-gray-700 dark-mode:text-gray-200 dark-mode:bg-gray-800"
+            "w-full text-gray-700 dark-mode:text-gray-200 dark-mode:bg-gray-800"
         },
         [
           _c(
@@ -6047,6 +6059,24 @@ var render = function() {
               )
             ]
           )
+        ]
+      )
+    ]),
+    _vm._v(" "),
+    _c("div", { attrs: { id: "hero" } }, [
+      _c("div", { staticClass: "texture" }),
+      _vm._v(" "),
+      _c(
+        "video",
+        {
+          attrs: { loop: "", muted: "", autoplay: "", preload: "auto" },
+          domProps: { muted: true }
+        },
+        [
+          _c("source", {
+            attrs: { src: "/video/BGHead.mp4", type: "video/mp4" }
+          }),
+          _vm._v("\n      Your browser does not support the video tag.\n    ")
         ]
       )
     ])
