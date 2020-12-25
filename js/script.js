@@ -1,5 +1,7 @@
 import Vue from "vue";
 import App from "../Vue/App.vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 Vue.directive ('scroll', {
     inserted: function (el, binding) {
@@ -14,5 +16,8 @@ Vue.directive ('scroll', {
 
 new Vue({
     el: '#App',
+    created() {
+        AOS.init();
+    },
     render: h => h(App)
 })

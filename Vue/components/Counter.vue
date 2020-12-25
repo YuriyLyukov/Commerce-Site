@@ -1,18 +1,14 @@
 <template>
-  <div id="Counter">
-    <div class="img-container">
-      <div class="counter-display">
-        <div class="iCountUp">
-          <ICountUp :delay="delay" :endVal="endVal" :options="options" ref="firstcomponent" v-scroll="onReady"/>
-        </div>
-      </div>
-      <img class="image1" src="/images/Counter.png" />
-      <div class="counter-display-2">
-        <div class="iCountUp-2">
-          <ICountUp :delay="delay" :endVal="endVal2" :options="options" ref="secondcomponent" v-scroll="onReady2"/>
-        </div>
-      </div>
+  <div id="Counter" class="">
+    <div class="iCountUp">
+      <ICountUp :delay="delay" :endVal="endVal" :options="options" ref="firstcomponent" v-scroll="onReady"/>
     </div>
+    <div class="iCountUp-2">
+      <ICountUp :delay="delay" :endVal="endVal2" :options="options" ref="secondcomponent" v-scroll="onReady2"/>
+    </div>
+    <div class="text1">REALIZED PROJECTS</div>
+    <div class="text2">QUALIFIED PARTNERS</div>
+    <img class="responsive" src="/images/Counter.png" />
   </div>
 </template>
 
@@ -53,42 +49,50 @@ export default {
       if (window.scrollY> 722) {
         this.$refs.secondcomponent.update(that.endVal2 + 200);
       }
-    }
+    },
   }
 };
 </script>
 
 <style scoped>
-.counter-display {
-  float: left;
-  position: absolute;
-  left: 13%;
-  top: 30%;
-  z-index: 1000;
-  color: black;
-  font-weight: bold;
+.responsive {
+  width: 100%;
+  height: auto;
 }
-.counter-display-2 {
-  float: left;
-  position: absolute;
-  left: 70%;
-  top: 35%;
-  z-index: -100;
-  color: black;
-  font-weight: bold;
-}
-.img-container {
-  position: relative;
-}
-
-.iCountUp {
-  font-size: 12em;
-  margin: 0;
+.iCountUp{
+  position:absolute;
+  font-size: 15vw;
+  margin-top: 10%;
+  z-index: 100;
   color: #5B21B6;
+  left: 23%;
+  transform: translateX(-50%);
 }
-.iCountUp-2 {
-  font-size: 15em;
-  margin: 0;
+.iCountUp-2{
+  position:absolute;
+  font-size: 20vw;
+  margin-top: 8%;
+  z-index: 100;
   color: #5B21B6;
+  left: 82%;
+  transform: translateX(-50%);
+}
+.text1{
+  position:absolute;
+  font-size: 4vw;
+  margin-top: 40%;
+  z-index: 1;
+  color: white;
+  left: 20%;
+  transform: translateX(-50%);
+}
+.text2{
+  position:absolute;
+  font-size: 3vw;
+  margin-top: 44%;
+  z-index: 1;
+  color: white;
+  right: 0%;
+  transform: translateX(-50%);
 }
 </style>
