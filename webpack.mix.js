@@ -1,10 +1,14 @@
 // webpack.mix.js
 let mix = require('laravel-mix');
-let tailwindcss=require('tailwindcss');
+let tailwindcss = require('tailwindcss');
+
 mix.setPublicPath("public");
 
-mix.postCss("src/style.css", "public/css", [
+mix.postCss("src/postcss/tailwind.css", "public/css", [
     require("tailwindcss"),
 ]);
-mix.sass('src/main.scss','public/css');
-mix.js('js/script.js', 'public/js');
+mix.sass('src/sass/main.scss','public/css');
+mix.js('src/js/main.js', 'public/js');
+
+mix.copyDirectory('src/video', 'public/video');
+mix.copyDirectory('src/img', 'public/images');
