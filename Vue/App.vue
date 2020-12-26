@@ -3,6 +3,7 @@
     <NavBar></NavBar>
     <Counter></Counter>
     <HowItWorks></HowItWorks>
+    <Lower></Lower>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import NavBar from "./components/NavBar.vue";
 import Counter from "./components/Counter";
 import HowItWorks from "./components/HowItWorks";
+import Lower from "./components/Lower";
 
 export default {
   name: "App",
   components:{
     NavBar,
     Counter,
-    HowItWorks
+    HowItWorks,
+    Lower,
   }
 }
 </script>

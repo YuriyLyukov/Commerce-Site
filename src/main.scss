@@ -28,7 +28,6 @@
 #hero {
   height:100vh;
   width:100%;
-  background:red;
   display:flex;
   align-items:center;
   justify-content: center;
@@ -58,11 +57,23 @@
 }
 
 
+#hero .caption {
+
+  position:absolute;
+  z-index:20;
+  text-align:center;
+  color:#ffffff;
+}
 
 
 
+footer{
+  background-color: #3751ff;
+}
 
-
+footer>nav>li>a{
+  color: #fbc917 !important;
+}
 
 
 
