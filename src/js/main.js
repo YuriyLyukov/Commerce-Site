@@ -2,8 +2,6 @@ import Vue from "vue";
 import App from "../vue/App.vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
-import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
 
 Vue.directive ('scroll', {
     inserted: function (el, binding) {
