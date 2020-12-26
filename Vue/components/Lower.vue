@@ -14,40 +14,40 @@
           </svg>
           <span class="ml-3 text-xl">tailblocks</span>
         </a>
-        <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+        <p class="mt-2 text-sm text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus nulla quam rerum similique tempora totam vel veniam vitae voluptate! Accusamus aspernatur cum eligendi eveniet illo inventore, optio quam! Aperiam.</p>
       </div>
       <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-          <h2 class="title-font text-black font-medium tracking-widest text-sm mb-3">Pages</h2>
+          <h2 class="title-font text-black font-medium tracking-widest text-2xl mb-3">Pages</h2>
           <nav class="list-none mb-20">
             <li>
-              <a class="text-white">Home</a>
+              <a class="text-xl text-white">Home</a>
             </li>
             <li>
-              <a class="text-white">About</a>
+              <a class="text-xl text-white">About</a>
             </li>
             <li>
-              <a class="text-white">News</a>
+              <a class="text-xl text-white">News</a>
             </li>
             <li>
-              <a class="text-white">Contact</a>
+              <a class="text-xl text-white">Contact</a>
             </li>
           </nav>
         </div>
         <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-          <h2 class="title-font text-black font-medium tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <h2 class="title-font text-black font-medium tracking-widest text-2xl mb-3">CATEGORIES</h2>
           <nav class="list-none mb-20">
             <li>
-              <a class="text-2xl text-white">First Link</a>
+              <a class="text-xl text-white">First Link</a>
             </li>
             <li>
-              <a class="text-2xl text-white ">Second Link</a>
+              <a class="text-xl text-white ">Second Link</a>
             </li>
             <li>
-              <a class="text-2xl text-white">Third Link</a>
+              <a class="text-xl text-white">Third Link</a>
             </li>
             <li>
-              <a class="text-2xl text-white ">Fourth Link</a>
+              <a class="text-xl text-white ">Fourth Link</a>
             </li>
           </nav>
         </div>
@@ -55,16 +55,16 @@
           <h2 class="title-font font-medium  text-black tracking-widest text-2xl mb-3">CATEGORIES</h2>
           <nav class="list-none mb-20">
             <li>
-              <a class="text-2xl text-white ">First Link</a>
+              <a class="text-xl text-white ">First Link</a>
             </li>
             <li>
-              <a class="text-2xl text-white ">Second Link</a>
+              <a class="text-xl text-white ">Second Link</a>
             </li>
             <li>
-              <a class="text-2xl text-white ">Third Link</a>
+              <a class="text-xl text-white ">Third Link</a>
             </li>
             <li>
-              <a class="text-2xl  ">Fourth Link</a>
+              <a class="text-xl text-white ">Fourth Link</a>
             </li>
           </nav>
         </div>
