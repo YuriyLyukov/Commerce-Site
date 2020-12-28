@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cube3">
+<path id="Vector" d="M480 112L256 0L32 112V400L256 512L480 400V112Z" fill="#6F5DFF"/>
+<path id="Vector_2" d="M256 224L32 112V400L256 512L480 400V112L256 224Z" fill="#4137DE"/>
+<path id="Vector_3" d="M256 224V512L480 400V112L256 224Z" fill="#4F43FF"/>
+</g>
+</svg>

@@ -11,12 +11,12 @@
             fill="none" stroke="#B434F7" stroke-width="10px" />
 
         <text class="text01" x="650" y="30">Lorem ipsum dolor sit amet.</text>
-        <text class="text02" x="30" y="550">Lorem ipsum dolor sit amet, consectetur.</text>
+        <text class="text02" x="-150" y="550">Lorem ipsum dolor sit amet, consectetur.</text>
         <text class="text03" x="650" y="1100">Lorem ipsum dolor sit.</text>
 
         <circle class="ball ball01" r="20" cx="25" cy="25"></circle>
         <circle class="ball ball02" r="20" cx="600" cy="50"></circle>
-        <circle class="ball ball03" r="20" cx="450" cy="540"></circle>
+        <circle class="ball ball03" r="20" cx="550" cy="540"></circle>
         <circle class="ball ball04" r="20" cx="650" cy="1000"></circle>
 
       </svg>
@@ -88,7 +88,7 @@ svg {
 }
 text {
   fill: white;
-  font-size: 15px;
+  font-size: 30px;
   font-family: "Signika Negative", sans-serif;
   visibility: hidden;
 }
@@ -137,7 +137,7 @@ text {
   position: absolute;
   background: #8C0EDD;
   border-radius: 50%;
-  margin-top: 95vw;
+  margin-top: 90vw;
   height: 30vw;
   width: 30vw;
   left: 5vw;

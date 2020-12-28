@@ -4,8 +4,8 @@
     <Counter></Counter>
     <HowItWorks></HowItWorks>
     <SVGpath></SVGpath>
+    <SVGanim></SVGanim>
     <Lower></Lower>
-
   </div>
 </template>
 
@@ -15,6 +15,7 @@ import Counter from "./components/Counter";
 import HowItWorks from "./components/HowItWorks";
 import Lower from "./components/Lower";
 import SVGpath from "./components/SVGpath";
+import SVGanim from "./components/SVGanim";
 
 export default {
   name: "App",
@@ -23,7 +24,8 @@ export default {
     Counter,
     HowItWorks,
     Lower,
-    SVGpath
+    SVGpath,
+    SVGanim
   }
 }
 </script>
