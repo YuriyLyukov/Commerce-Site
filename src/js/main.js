@@ -2,6 +2,7 @@ import Vue from "vue";
 import App from "../vue/App.vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import 'vuesax/dist/vuesax.css';
 
 Vue.directive ('scroll', {
     inserted: function (el, binding) {

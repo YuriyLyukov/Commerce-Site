@@ -5,6 +5,8 @@
     <HowItWorks></HowItWorks>
     <SVGpath></SVGpath>
     <SVGanim></SVGanim>
+    <PartnersSection></PartnersSection>
+    <Reviews></Reviews>
     <Lower></Lower>
   </div>
 </template>
@@ -16,6 +18,8 @@ import HowItWorks from "./components/HowItWorks";
 import Lower from "./components/Lower";
 import SVGpath from "./components/SVGpath";
 import SVGanim from "./components/SVGanim";
+import Reviews from "./components/Reviews";
+import PartnersSection from "./components/PartnersSection";
 
 export default {
   name: "App",
@@ -25,7 +29,9 @@ export default {
     HowItWorks,
     Lower,
     SVGpath,
-    SVGanim
+    SVGanim,
+    Reviews,
+    PartnersSection
   }
 }
 </script>

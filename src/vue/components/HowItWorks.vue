@@ -19,8 +19,10 @@
             <div class="rounded-lg h-100 overflow-hidden">
               <img alt="content" class="object-cover object-center h-full w-full" src="/images/Avatar-3.png" data-aos="fade-down" data-aos-duration="2000">
             </div>
-            <h2 class="text-center text-xl font-bold title-font text-900 mt-5 yellow">Designing</h2>
-            <p class="text-base font-bold leading-relaxed mt-2 yellow">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+            <div class="bg-purple-300 rounded-2xl">
+              <h2 class=" text-center text-xl font-bold title-font text-900 mt-5 yellow">Designing</h2>
+              <p class="text-base font-bold leading-relaxed mt-2 yellow">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+            </div>
           </div>
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div class="rounded-lg h-100 overflow-hidden">

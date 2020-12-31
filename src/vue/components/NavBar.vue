@@ -225,7 +225,7 @@ export default {
   
 }
 #cube{
-  animation: cube 2s infinite;
+  animation: cube 5s infinite;
 }
 @keyframes cube{
   0% {
@@ -233,10 +233,11 @@ export default {
     box-shadow: 0 0 0 0 rgba(180, 52, 247, 0.7);
   }
 
-  70% {
+  50% {
     transform: scale(1);
     box-shadow: 0 0 0 3vw rgba(0, 0, 0, 0);
   }
+
 
   100% {
     transform: scale(0.95);
