@@ -7,7 +7,8 @@
     <SVGanim></SVGanim>
     <PartnersSection></PartnersSection>
     <Reviews></Reviews>
-    <Lower></Lower>
+    <QuotesSection></QuotesSection>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -15,11 +16,12 @@
 import NavBar from "./components/NavBar.vue";
 import Counter from "./components/Counter";
 import HowItWorks from "./components/HowItWorks";
-import Lower from "./components/Lower";
+import Footer from "./components/Footer";
 import SVGpath from "./components/SVGpath";
 import SVGanim from "./components/SVGanim";
 import Reviews from "./components/Reviews";
 import PartnersSection from "./components/PartnersSection";
+import QuotesSection from "./components/QuotesSection";
 
 export default {
   name: "App",
@@ -27,11 +29,12 @@ export default {
     NavBar,
     Counter,
     HowItWorks,
-    Lower,
+    Footer,
     SVGpath,
     SVGanim,
     Reviews,
-    PartnersSection
+    PartnersSection,
+    QuotesSection
   }
 }
 </script>
