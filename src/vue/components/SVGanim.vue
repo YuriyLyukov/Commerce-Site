@@ -1,13 +1,13 @@
 <template>
   <div id="SVGanim">
-    <div class="BGanim bg-indigo-300">
+    <div class="BGanim" style="width: 100%; height: 100%">
       <div data-aos="fade-left" data-aos-duration="1500" class="textOver font-bold">
         Lorem ipsum.
         <br>Lorem ipsum dolor.
         <br>Lorem ipsum.
         <p class="font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, tenetur.</p>
       </div>
-      <img class="object-cover h-100vh w-full" src="/images/backgroundanim.png" alt="">
+      <img class="object-cover h-100vh" style="width:100%" src="/images/backgroundanim.png" alt="">
       <div class="svg-cube1">
         <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g>
