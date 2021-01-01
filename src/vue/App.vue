@@ -6,6 +6,7 @@
     <SVGpath></SVGpath>
     <SVGanim></SVGanim>
     <ServicesWeProvide></ServicesWeProvide>
+    <VideoSection></VideoSection>
     <PartnersSection></PartnersSection>
     <Reviews></Reviews>
     <QuotesSection></QuotesSection>
@@ -24,6 +25,7 @@ import Reviews from "./components/Reviews";
 import PartnersSection from "./components/PartnersSection";
 import QuotesSection from "./components/QuotesSection";
 import ServicesWeProvide from "./components/ServicesWeProvide";
+import VideoSection from "./components/VideoSection";
 
 export default {
   name: "App",
@@ -37,7 +39,8 @@ export default {
     Reviews,
     PartnersSection,
     QuotesSection,
-    ServicesWeProvide
+    ServicesWeProvide,
+    VideoSection
   }
 }
 </script>
